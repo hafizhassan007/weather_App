@@ -1,0 +1,17 @@
+[project]
+name = "storm-agent"
+version = "0.1.0"
+description = "Weather analysis and storm prediction agent (LangChain Deep Agents + Streamlit)"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "streamlit",
+    "deepagents",
+    "langchain",
+    "langchain-google-genai",
+    "langchain-groq",
+    "requests",
+    "python-dotenv",
+    "fpdf2",
+    "pandas",
+]
